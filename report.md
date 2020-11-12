@@ -7,7 +7,7 @@
 ##  1.8.1 Districts containing trees
 
 Write a MapReduce job that displays the list of distinct containing trees in this
-le. Obviously, it's twenty or less dierent arrondissements, but exactly how
+file. Obviously, it's twenty or less different arrondissements, but exactly how
 many?
 You just need to put rounding as a key and put any value or NullWritable
 as a value, output from the mapper.
