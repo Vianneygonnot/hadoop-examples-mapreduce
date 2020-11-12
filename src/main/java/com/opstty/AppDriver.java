@@ -9,6 +9,10 @@ public class AppDriver {
         ProgramDriver programDriver = new ProgramDriver();
 
         try {
+            programDriver.addClass("oldest", Oldest.class,
+                    "A map/reduce program that that sort the displays the district where the oldest tree is.");
+            programDriver.addClass("sortheight", SortHeight.class,
+                    "A map/reduce program that that sort the trees height from smallest to largest.");
             programDriver.addClass("numbertree", NumberOfTreesBySpecies.class,
                     "A map/reduce program that count the tree by species.");
             programDriver.addClass("highest", Highest.class,
