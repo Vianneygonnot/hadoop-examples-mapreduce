@@ -1,3 +1,4 @@
+#Gonnot Vianney et Gailhac Louis
 # hadoop-examples-mapreduce
 # MapReduce2 JAVA
 
